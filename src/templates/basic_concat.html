@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <title>concat</title>
+    </head>
+    <body>
+        {% for body in bodies %}
+        <div>
+            {{ body|safe }}
+        </div>
+        <hr>
+        {% endfor %}
+    </body>
+</html>
